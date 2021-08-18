@@ -36,6 +36,7 @@ export class ArticleComponent implements OnInit {
 
   ngOnInit() {
   }
+
   addNewArticle() {
     this.articles.push(this.article);
   }
